@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-#require 'pry-byebug'
+require 'pry-byebug'
 require 'require_all'
 require_all 'source'
 

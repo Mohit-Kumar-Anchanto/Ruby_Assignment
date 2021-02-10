@@ -29,6 +29,7 @@ class ArmstrongNumber
       return false
     end
     sum = sum_of_cube_of_digits(@number)
+    byebug
     return sum == @number 
   end
 end
