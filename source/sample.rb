@@ -36,6 +36,25 @@ end
 
 
 class Prime
+  attr_accessor :number
+  def initialize(num)
+    @number=num
+  end
+
+  def is_prime
+    if @number < 2
+      return false
+    end
+    x=2
+    while x*x <= @number
+      if @number % x==0
+        return false
+      end
+      x+=1
+    end
+    return true
+  end
+
 end
 
 class FreqCount
