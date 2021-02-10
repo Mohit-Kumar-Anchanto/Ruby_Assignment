@@ -5,12 +5,9 @@ class Sample
 end
 
 class ArmstrongNumber
-
 end
-
 class Prime
-  
 end
+
 class FreqCount
-  
 end
