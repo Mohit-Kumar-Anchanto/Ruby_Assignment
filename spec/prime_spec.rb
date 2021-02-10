@@ -15,3 +15,4 @@ RSpec.describe 'Prime' do
     end
   end
 end
+

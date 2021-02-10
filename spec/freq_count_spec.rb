@@ -9,3 +9,4 @@ RSpec.describe 'FreqCount' do
     expect(response['2']).to eq(1)
   end
 end
+

@@ -58,4 +58,24 @@ class Prime
 end
 
 class FreqCount
+  attr_accessor :str
+  def initialize(s)
+    @str=s
+  end
+
+  def frequency
+    response_hash={}
+    n= @str.length
+    for x in 1..n
+      if response_hash[@str[x-1]] == nil
+        response_hash[@str[x-1]]=1
+      else
+        response_hash[@str[x-1]]+=1
+      end
+    end
+    return response_hash
+  end
+
 end
+
+
