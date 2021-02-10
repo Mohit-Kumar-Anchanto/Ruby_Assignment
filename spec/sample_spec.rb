@@ -2,6 +2,6 @@
 
 RSpec.describe 'Hello' do
   it 'should return hello' do
-    expect(Sample.new.hello_msg).to eq('hello')
+    expect(Sample.new.hello_msg).to eq('Hello Mohit')
   end
 end

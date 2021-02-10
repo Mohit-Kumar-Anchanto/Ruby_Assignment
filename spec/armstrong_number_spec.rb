@@ -15,3 +15,9 @@ RSpec.describe 'ArmstrongNumber' do
     end
   end
 end
+
+# RSpec.describe 'Example' do
+#   it 'should return hello' do
+#     expect(ArmstrongNumber.new(153).is_armstrong).to eq(true)
+#   end
+# end
