@@ -3,3 +3,14 @@ class Sample
     "hello"
   end
 end
+
+class ArmstrongNumber
+
+end
+
+class Prime
+  
+end
+class FreqCount
+  
+end
