@@ -79,3 +79,22 @@ class FreqCount
 end
 
 
+class Mohit
+  attr_accessor :s
+
+  def initialize(s)
+    @s = s
+  end
+  def first_most_freq_item
+    hash=FreqCount.new(@s).frequency
+    mx=0
+    ans=''
+    for x,y in hash
+      if y>mx
+        mx=y
+        ans=x
+      end
+    end
+    return ans
+  end
+end
