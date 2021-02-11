@@ -85,6 +85,7 @@ class Mohit
   def initialize(s)
     @s = s
   end
+
   def first_most_freq_item
     hash=FreqCount.new(@s).frequency
     mx=0
@@ -97,4 +98,20 @@ class Mohit
     end
     return ans
   end
+
+end
+
+
+class GCD
+
+  def gcd(a,b)
+    if b > a 
+      return gcd(b,a)
+    end
+    if b==0
+      return a
+    end
+    return gcd(b,a%b)
+  end
+
 end
